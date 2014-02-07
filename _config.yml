@@ -1,3 +1,7 @@
-name: Your New Jekyll Site
+name: Github Pages Blog
+
+paginate: 4
+
 markdown: redcarpet
+permalink: pretty
 pygments: true

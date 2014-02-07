@@ -1,9 +1,13 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+{% include head.html %}
 
-<div class="post">
-{{ content }}
-</div>
+  <div class="blog-post">
+    <h2 class="blog-post-title">{{ page.title }}</h2>
+    <p class="blog-post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
+
+    <div class="blog-main">
+      {{ content }}
+    </div>
+  </div>
+
+{% include sidebar.html %}
+{% include foot.html %}

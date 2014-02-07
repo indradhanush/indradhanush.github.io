@@ -1,0 +1,55 @@
+        </div>
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <p>
+              <img src="http://www.gravatar.com/avatar/0e74dfe9b92822b1371cae0f22538b2e.png">
+            </p>
+            <h4>About Me</h4>
+            <p>Currently pursuing  B.Tech in Information Technology,
+            Indradhanush is passionate about programming and has
+            developed a profound interest in the field of Networking
+            and Security. Open Source fanatic is
+            another word that describes him. When not fiddling with
+            the bits and bytes he can be found beating the drums. 
+            </p>
+            <p>
+              <a href="https://twitter.com/Indradhanush92" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @Indradhanush92</a>
+
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </p>
+
+          </div>
+          <div class="sidebar-module">
+            <h4>Recent Posts</h4>
+            <ol class="list-unstyled">
+              {% for post in site.posts limit:3 %}
+              <li><h6><a href="{{ post.url }}">{{post.title}}</a></h6></li>
+              {% endfor %}
+            </ol>
+          </div>
+          <!-- <div class="sidebar-module"> -->
+          <!--   <h4>Archives</h4> -->
+          <!--   <ol class="list-unstyled"> -->
+          <!--     <li><a href="#">February 2014</a></li> -->
+          <!--     <li><a href="#">February 2013</a></li> -->
+          <!--     <li><a href="#">November 2012</a></li> -->
+          <!--   </ol> -->
+          <!-- </div> -->
+          <!-- <div class="sidebar-module"> -->
+          <!--   <h4>Social</h4> -->
+          <!--   <ol class="list-unstyled"> -->
+          <!--     <li><a href="mailto:indradhanush.gupta@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a></li> -->
+          <!--     <li> -->
+          <!--       <script src="//platform.linkedin.com/in.js" type="text/javascript"></script> -->
+          <!--       <script type="IN/MemberProfile" data-id="/in/jeffweiner08" data-format="click" data-related="false"></script> -->
+          <!--     </li> -->
+          <!--     <li><a href="#">Twitter</a></li> -->
+          <!--     <li><a href="#">Facebook</a></li> -->
+          <!--   </ol> -->
+          <!-- </div> -->
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
