@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automating Replies to Facebook Birthday Wishes
-date: February 5, 2014
+date: February 7, 2014
 author: Indradhanush Gupta
 ---
 
