@@ -5,11 +5,10 @@ layout: post
 <div>
 <ol>
 {% for post in site.posts %}
-<h4>
 <li>
-  <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%-d %B %Y" }}
+  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+  <h6>{{ post.date | date: "%B %-d, %Y" }}</h6>
 </li>
-</h4>
 {% endfor %}
 </ol>
 </div>
