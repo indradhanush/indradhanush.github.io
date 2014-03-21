@@ -2,15 +2,15 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% assign post = site.posts.first %}
+{% assign content = post.content %}
+
+
   <div class="blog-post">
     <h2 class="blog-post-title">{{ post.title }}</h2>
-    <p class="blog-post-meta">
-      {{ post.date | date: "%B %e, %Y" }}</p>
+    <p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
     <div class="blog-main">
-      {{ post.content }}
+      {{ content }}
     </div>
-    </p>
   </div>
-{% endfor %}
 
