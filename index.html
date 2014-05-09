@@ -2,15 +2,17 @@
 layout: default
 ---
 
-{% assign post = site.posts.first %}
-{% assign content = post.content %}
-
+{% for post in site.posts %}
 
   <div class="blog-post">
-    <h2 class="blog-post-title">{{ post.title }}</h2>
+    <a href="{{ post.url }}">
+      <h2> {{ post.title }}</h2>
+    </a>
     <p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
     <div class="blog-main">
-      {{ content }}
+      {{ post.content | truncatewords: 75  }}
+      <a href="{{ post.url }}" class="btn btn-success pull-right">Read On</a>
     </div>
   </div>
 
+{% endfor %}

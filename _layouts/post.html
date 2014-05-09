@@ -1,7 +1,9 @@
 {% include head.html %}
 
   <div class="blog-post">
-    <h2 class="blog-post-title">{{ page.title }}</h2>
+    <a href="{{ page.url }}" style="text-decoration: none ! important;">
+      <h2 class="blog-post-title">{{ page.title }}</h2>
+    </a>
     <p class="blog-post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
 
     <div class="blog-main">
