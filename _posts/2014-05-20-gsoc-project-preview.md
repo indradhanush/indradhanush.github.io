@@ -24,6 +24,8 @@ LEAP on the server side, deploys the LEAP platform and on the client side they p
 
 LEAP provides secure and encrypted emails. One important point to note is that, if an incoming email is not encrypted, LEAP ensures that it gets encrypted such that only the intended recipient is able to view the original contents. Also, the server never sees plain text. The data is encrypted locally at the client's machine and then made available for sync.
 
+You may read more about LEAP [here](https://leap.se/en/about-us).
+
 **Q:** ***What is the technology used behind the synchronization?***
 
 **A:** The core behind the entire synchronization process is [SOLEDAD](https://leap.se/en/docs/design/soledad), which stands for **S**ynchronization **O**f **L**ocally **E**ncrypted **D**ocuments **A**mong **D**evices.
@@ -62,7 +64,7 @@ Currently work is being done on decoupling the enryption/decryption from the syn
 
 I have been talking about syncing documents. But these are not documents that the user creates on his/her own. Its a metadata document. That is it contains application information. So typically, the entire sync is for keeping in sync the same application across many devices.
 
-**Q:** ***What does my project fit in?***
+**Q:** ***Where does my project fit in?***
 
 **A:** I am going to replace the HTTP sync process provided by U1DB. I have to keep all of the above when I am redesigning the entire sync protocol for ZeroMQ. There are somethings that I have to keep in mind:
 
@@ -70,5 +72,5 @@ I have been talking about syncing documents. But these are not documents that th
 * Resume Sync: I need to support resuming a sync process by handling interruptions and not having to start the sync from scratch again.
 * Selective Sync: One of the important things to do is that, the user should be able to sync selective documents.
 
-Well, that's it for now. I'll post my progress at the end of this week.
+Well, that's it for now. I'll post my progress at the end of this week. Once again, here's[http://bit.ly/gsoc14_proposal] my complete proposal.
 
