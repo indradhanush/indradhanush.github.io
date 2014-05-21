@@ -72,5 +72,5 @@ I have been talking about syncing documents. But these are not documents that th
 * Resume Sync: I need to support resuming a sync process by handling interruptions and not having to start the sync from scratch again.
 * Selective Sync: One of the important things to do is that, the user should be able to sync selective documents.
 
-Well, that's it for now. I'll post my progress at the end of this week. Once again, here's[http://bit.ly/gsoc14_proposal] my complete proposal.
+Well, that's it for now. I'll post my progress at the end of this week. Once again, [here's](http://bit.ly/gsoc14_proposal) my complete proposal.
 
