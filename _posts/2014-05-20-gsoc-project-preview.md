@@ -39,7 +39,7 @@ It is based on [U1DB](https://one.ubuntu.com/developer/data/u1db/index), which i
 Before proceeding any further, I would like you to look at the following diagram: (I had drawn this for my own understanding, but was too lazy to draw it on my computer.)
 
 <div>
-  <img src="{{ site.url }}/dist/img/system_overview_1.jpg" height="1000" width="800"/>
+  <img src="{{ site.url }}/assets/img/system_overview_1.jpg" height="1000" width="800"/>
 </div>
 <br>
 In the above image, if you look at the bottom of the image and start looking up,
