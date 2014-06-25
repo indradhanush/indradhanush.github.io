@@ -43,7 +43,7 @@ will do my job quite simply. Make a request, a very specific one and
 wait for a very specific reply. Everything else is silently dropped
 and goes into the gutter.
 
-Thus, I now have replaced my DEALER in the client with a __REQ__ socket.
+Thus, I now have replaced my __DEALER__ in the client with a __REQ__ socket.
 The __ROUTER__ at the server stays. Quite obviously, I don't want my
 server to block on every incoming request. ;)
 
