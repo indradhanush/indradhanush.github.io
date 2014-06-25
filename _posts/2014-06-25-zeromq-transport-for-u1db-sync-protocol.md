@@ -63,8 +63,8 @@ used:
 
 * __Source:__ The component initiating a sync is referred to as source.
 
-* __Target:__ The component against which the sync has been initiated is
-referred to as the target.
+* __Target:__ The component against which the sync has been initiated
+is referred to as the target.
 
 But, for the sake of simplicity, we will consider the __Client__ as
 the __Source__ and the __Server__ as the __Target__. Also, __SOLEDAD__
@@ -84,21 +84,22 @@ Now, moving on to the sync protocol.
 
     For example:
 
-    _Say, the source has documents A, B, and C at generations 5, 8 and
-    3 respectively. Lets just say the target has already synced with
-    the source at this point._
+    _Say, the source has documents A, B, and C at ~~generations~~
+    revisions 5, 8 and 3 respectively. Lets just say the target has
+    already synced with the source at this point._
 
-    Now, if documents A and B move up to generations 9 and 10
-    respectively at the source and it now initiates a sync against the
-    target. The target will let the source know that the last
-    information about these documents it has at generations 5, 8 and 3
-    respectively.
+    Now, if documents A and B move up to ~~generations~~ revisions 9
+    and 10 respectively at the source and it now initiates a sync
+    against the target. The target will let the source know that the
+    last information about these documents it has is at
+    ~~generations~~ revisions 5, 8 and 3 respectively.
 
     The source will know compare this information against its own
-    replica database, and know that it needs to send generations 6
-    through 9 for document A and generations 9 through 10 for document
-    B, while there is no need to send any information about document C
-    as it has not changed at all since their last sync.
+    replica database, and know that it needs to send ~~generations 6
+    through 9~~ revision 9 for document A and ~~generations 9 through
+    10~~ revision 10 for document B, while there is no need to send
+    any information about document C as it has not changed at all
+    since their last sync.
 
     This operation is known as __get\_sync\_info__, The actual
     interchange of information is a little different and in terms of a
@@ -139,11 +140,11 @@ Now, moving on to the sync protocol.
 
     Let us add to our previous example:
 
-    _Say, while docs A and B moved up to generations 9 and 10
-    respectively at the source, say another source synced up with the
-    target and added a new document D and moved document C from
-    generations 3 through 5. Thus this change must also be
-    communicated with the first source._
+    _Say, while docs A and B moved up to ~~generations~~ revisions 9
+    and 10 respectively at the source, say another source synced up
+    with the target and added a new document D and moved document C
+    from ~~generations~~ revisions 3 through 5. Thus this change must
+    also be communicated with the first source._
 
     We can forget about the second source and come back to the first
     source again.
