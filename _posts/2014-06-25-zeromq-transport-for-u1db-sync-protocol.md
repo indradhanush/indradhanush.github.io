@@ -204,6 +204,6 @@ which every request is locked in a state until the correct response to
 it arrives.
 
 That's it for this one. As always,
-[here](https://github.com/indradhanush/U1DB-ZeroMQ-Transport/tree/zmq_architecture).
+[here](https://github.com/indradhanush/U1DB-ZeroMQ-Transport/tree/u1db_implementation).
 is the code. Go check it out!
 
