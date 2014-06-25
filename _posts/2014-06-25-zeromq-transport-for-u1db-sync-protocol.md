@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ZeroMQ implementation of U1DB sync protocol
+title: ZeroMQ transport for U1DB sync protocol
 date: June 25, 2014
 author: Indradhanush Gupta
 ---
