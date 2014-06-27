@@ -11,9 +11,10 @@ layout: default
     <p class="blog-post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
     <div class="blog-main">
       {{ post.content | truncatewords: 75  }}
-      <a href="{{ post.url }}" class="btn btn-success pull-right">Read On</a>
     </div>
+    <a href="{{ post.url }}" class="btn btn-success pull-left">Read More</a>
   </div>
+  <br>
 
 {% endfor %}
 
