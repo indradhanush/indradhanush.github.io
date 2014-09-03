@@ -1,4 +1,4 @@
----
+˘---
 layout: post
 title: Google Summer of Code - Closure
 date: August 30, 2014
@@ -54,7 +54,7 @@ after I develop.
 
 It was tough to get my head around
 [Mock](http://mock.readthedocs.org/). In fact it took more than a
-couple of weeks actually. But once I understood it, I realise the
+couple of weeks actually. But once I understood it, I realised the
 beauty of it. And especially, my tests that often consist of sending
 data over the wire, mocking all that network activity and even mocking
 the endpoints became crucial for writing clean tests. Initially I was
@@ -71,9 +71,9 @@ more often read than written!
 My personal recommendation is that every student must participate in
 GSoC. It is a program like no other!
 
-And finally, this it for now. You are welcome to lend us a hand by
+Thats it for now. You are welcome to lend us a hand by
 contributing towards this. Come say hello at __#leap__ in
-irc.freenode.net(http://webchat.freenode.net/) and ask for _drebs_,
+[irc.freenode.net](http://webchat.freenode.net/) and ask for _drebs_,
 _kaliy_ or me (_dhanush_). We will be very happy to see you there!
 Also, you can look up the
 [README](https://github.com/indradhanush/U1DB-ZeroMQ-Transport/blob/benchmarks/README.md)
