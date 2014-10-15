@@ -1,4 +1,4 @@
-˘---
+---
 layout: post
 title: Google Summer of Code - Closure
 date: August 30, 2014
