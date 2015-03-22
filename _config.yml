@@ -4,6 +4,6 @@ markdown: redcarpet
 redcarpet:
         extensions: ["strikethrough"]
 permalink: pretty
-pygments: true
+highlighter: true
 comments: true
 
