@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dealing with datetime objects in a Python + Postgres environment
-date: March 22, 2015
+date: March 23, 2015
 author: Indradhanush Gupta
 ---
 
