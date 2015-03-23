@@ -6,4 +6,5 @@ redcarpet:
 permalink: pretty
 pygments: true
 comments: true
-
+gems:
+  - jekyll-redirect-from
