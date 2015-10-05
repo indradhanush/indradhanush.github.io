@@ -1,0 +1,111 @@
+<style type="text/css">
+.reveal h1, .reveal h2 {
+    font-size:100px
+}
+</style>
+
+/* /\* */
+/* Placeholder for custom user CSS */
+
+/* mainly to be overridden in profile/static/custom/custom.css */
+
+/* This will always be an empty file in IPython */
+/* *\/ */
+/* /\* comment out this line to bring the toolbar back *\/ */
+/* html, body { */
+/*   overflow-y: hidden */
+/* } */
+
+/* div#header { */
+/*   background-color: #fdf6e3; */
+/* } */
+
+/* div#site { */
+/*   margin:0; */
+/*   padding:0; */
+/*   border-width: 0; */
+/* } */
+
+/* div#maintoolbar, div#header-container{ */
+/*     display: none !important; */
+/* } */
+
+/* div#notebook-container { */
+/*     padding-left: 5px; */
+/*     width: 1070px; */
+/*     background-color: #fdf6e3; */
+/* } */
+
+/* div.navbar-collapse { */
+/*     background-color: #fdf6e3; */
+/* } */
+
+/* div#notebook { */
+/*     border-top: none; */
+/* } */
+
+/* div.input { */
+/*     width: 135ex; */
+/* } */
+
+/* div.input_area { */
+/*   border: 2px ridge #93a1a1; */
+/* } */
+
+/* div.output_subarea { */
+/*   /\*margin-left:40px;*\/ */
+/*     max-width: 123ex; */
+/* } */
+
+/* div.output_area pre { */
+/*   font-size: 15px; */
+
+/*   /\*font-family: consolas;*\/ */
+/*   word-break:normal !important; */
+/* } */
+
+/* div.text_cell { */
+/*     width: 135ex; */
+/* } */
+
+/* div.text_cell_render { */
+/*     font-size: 16px; */
+/*     line-height: 145%; */
+/* } */
+
+/* .rendered_html pre, .rendered_html code { */
+/*   background-color: #E6E6E6; */
+/* } */
+
+/* .CodeMirror { */
+/*     font-size: 15px; */
+/*     font-family: monacob, monospace; */
+/*     line-height: 145%; */
+/* } */
+
+/* /\* Style for syntax highlighting*\/ */
+/* .cm-s-ipython.CodeMirror {background: #fdf6e3; color: #073642;} */
+/* .cm-s-ipython div.CodeMirror-selected {background: #073642 !important;} */
+/* .cm-s-ipython .CodeMirror-gutters {background: #fdf6e3; border-right: 1px solid #93A1A1; padding-right:5px;} */
+/* .cm-s-ipython .CodeMirror-linenumber {color: #93A1A1;} */
+/* .cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #657b83 !important;} */
+/* .CodeMirror pre {color: #586E75;} */
+/* .cm-s-ipython span.cm-comment {color: #93A1A1;} */
+/* .cm-s-ipython span.cm-atom {color: #6c71c4;} */
+/* .cm-s-ipython span.cm-number {color: #D33682;} */
+/* .cm-s-ipython span.cm-meta {color: #268bd2;} */
+/* .cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #859900;} */
+/* .cm-s-ipython span.cm-keyword {color: #748B00;} */
+/* .cm-s-ipython span.cm-string {color: #2AA198;} */
+/* .cm-s-ipython span.cm-operator {color: #859900;} */
+/* .cm-s-ipython span.cm-builtin {color: #B58900;} */
+
+/* .cm-s-ipython span.cm-variable {color: #586E75;} */
+/* .cm-s-ipython span.cm-variable-2 {color: #268bd2;} */
+/* .cm-s-ipython span.cm-def {color: #268BD2;} */
+/* .cm-s-ipython span.cm-error {background: #dc322f; color: #ffffff;} */
+/* .cm-s-ipython span.cm-bracket {color: #586e75;} */
+/* .cm-s-ipython span.cm-tag {color: #dc322f;} */
+/* .cm-s-ipython span.cm-link {color: #6c71c4;} */
+
+/* .cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #073642 !important;} */
