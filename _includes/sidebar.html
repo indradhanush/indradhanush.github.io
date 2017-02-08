@@ -47,7 +47,7 @@
           <div class="sidebar-module">
             <h4>Recent Posts</h4>
             <ol class="list-unstyled">
-              {% for post in site.posts limit:5 %}
+              {% for post in site.posts limit:10 %}
               <li><h6><a href="{{ post.url }}">{{post.title}}</a></h6></li>
               {% endfor %}
             </ol>
