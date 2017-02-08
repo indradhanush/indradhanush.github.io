@@ -4,7 +4,7 @@ markdown: redcarpet
 redcarpet:
         extensions: ["strikethrough"]
 permalink: pretty
-pygments: true
+rouge: true
 comments: true
 gems:
   - jekyll-redirect-from
