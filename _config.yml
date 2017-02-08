@@ -1,10 +1,14 @@
 name: Github Pages Blog
 
-markdown: redcarpet
-redcarpet:
-        extensions: ["strikethrough"]
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
 permalink: pretty
-rouge: true
+
 comments: true
 gems:
   - jekyll-redirect-from
