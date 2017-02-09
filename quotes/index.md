@@ -5,7 +5,7 @@ date: December 25, 2016
 author: self
 ---
 
-This is a collection of quotes that I keep stumbling upon on the internet and in books and from the people I meet.
+This is a collection of quotes that I keep stumbling upon the internet and in books and from the people I meet.
 
 > If you want to build a ship,
 > don't drum up the people to gather wood,

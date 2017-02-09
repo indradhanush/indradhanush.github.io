@@ -12,6 +12,6 @@ I work in the engineering team at [Instamojo](https://www.instamojo.com/) where 
 
 I am interested in the areas of distributed sytems and network programming.
 
-When I'm not thinking about code, I play the drums or I [paint](/paintings/).
+When not thinking about code, I play the drums or I [paint](/paintings/).
 
 Oh and if you are up for it, lets type race here [http://play.typeracer.com/](http://play.typeracer.com/). Should be fun!
