@@ -24,10 +24,12 @@ This is a collection of quotes that I've stumbled upon the internet and in books
 
 > We all are artists, musicians, dancers, writers.
 > Everything else is just a way to pay the bills.
+>
 > --- Anonymous
 
 > All that is gold does not glitter,
 > Not all those who wander are lost;
 > The old that is strong does not wither,
 > Deep roots are not reached by the frost.
+>
 > --- J.R.R. Tolkien, The Lord of the Rings
