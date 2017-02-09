@@ -5,7 +5,7 @@ date: December 25, 2016
 author: self
 ---
 
-This is a collection of quotes that I keep stumbling upon the internet and in books and from the people I meet.
+This is a collection of quotes that I've stumbled upon the internet and in books and from the people I meet.
 
 > If you want to build a ship,
 > don't drum up the people to gather wood,
@@ -22,4 +22,12 @@ This is a collection of quotes that I keep stumbling upon the internet and in bo
 >
 > --- Albus Dumbledore
 
+> We all are artists, musicians, dancers, writers.
+> Everything else is just a way to pay the bills.
+> --- Anonymous
 
+> All that is gold does not glitter,
+> Not all those who wander are lost;
+> The old that is strong does not wither,
+> Deep roots are not reached by the frost.
+> --- J.R.R. Tolkien, The Lord of the Rings
