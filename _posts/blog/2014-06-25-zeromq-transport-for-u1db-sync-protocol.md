@@ -2,7 +2,8 @@
 layout: post
 title: ZeroMQ transport for U1DB sync protocol
 categories: blog
-tags: ['gsoc']
+tags: ['gsoc','python','zeromq']
+excerpt: "Details about the synchronization protocol that I am implementing as part of my Google Summer of Code, 2014 project. We've identified a few blockers thus prompting us to tweak the design to work around them."
 date: June 25, 2014
 author: self
 ---

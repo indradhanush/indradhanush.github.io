@@ -2,7 +2,8 @@
 layout: post
 title: Google Summer of Code - Closure
 categories: blog
-tags: ['gsoc']
+tags: ['gsoc','python','zeromq']
+excerpt: 'Closing notes on Google Summer of Code, 2014. Some pointers on things learned and the way forward.'
 date: August 30, 2014
 author: self
 ---

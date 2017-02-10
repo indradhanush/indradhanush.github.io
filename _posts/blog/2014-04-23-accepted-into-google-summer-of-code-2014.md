@@ -2,7 +2,8 @@
 layout: post
 title: Accepted Into Google Summer of Code 2014
 categories: blog
-tags: ['gsoc']
+tags: ['gsoc','python','zeromq']
+excerpt: 'My first reactions after being selected into Google Summer of Code, 2014. Also a very brief note about my project for the summer.'
 date: April 23, 2014
 author: self
 ---
@@ -22,4 +23,3 @@ A Message Transport is what I need. And having [worked](http://github.com/indrad
 You can read my proposal [here](http://www.google-melange.com/gsoc/proposal/review/student/google/gsoc2014/indradhanush/5668600916475904). 
 
 Lastly, something I've wanted to say for more than a year. **Yes! I am a GSOCer!**
-

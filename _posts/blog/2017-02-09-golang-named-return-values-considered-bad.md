@@ -3,8 +3,10 @@ layout: post
 title: Golang named return values considered bad
 categories: blog
 tags: ['golang']
-date: February 9, 2017
+excerpt: 'Named return values in golang help in reducing redundant return statements, but it might be the reason behind a bug creeping into your code without you realizing'
 published: false
+date: February 9, 2017
+
 author: self
 ---
 

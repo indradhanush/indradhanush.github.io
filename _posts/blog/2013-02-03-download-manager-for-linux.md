@@ -2,12 +2,13 @@
 layout: post
 title: Download Manager for Linux
 categories: blog
-tags: ['linux','wget']
+tags: ['linux','wget', 'cli']
+excerpt: 'A quick command line tool for managing downloads'
 date: February 3, 2013
 author: self
 ---
 
-My college Wi-Fi signal fluctuates frequently and I having been using Linux Mint 13. The problem is that I get logged out automatically. In the absence of the traditional IDM that I had been using while on Windows, downloading large files became difficult. Often the download would stop at close to 90 %. Argh! Annoyed I used to be with the fluctuating signals. But this was something not in my hand. So I decided to do something that was in my hand. I checked out for download managers and came to know that Chrome for Linux didn't support download managers. And after scouring through the net a little came the savior!
+My college Wi-Fi signal fluctuates frequently and I having been using Linux Mint 13. The problem is that I get logged out automatically. In the absence of the traditional IDM that I had been using while on Windows, downloading large files became difficult. Often the download would stop at close to 90 %. Argh! Annoyed I used to be with the fluctuating signals. But this was something not in my hand. So I decided to do something that was in my hand. I checked out for download managers and came to know that Chrome for Linux didn't support download managers. And after scouring through the internet a little came the savior!
 
     wget
 

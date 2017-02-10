@@ -3,6 +3,7 @@ layout: post
 title: Automating Replies to Facebook Birthday Wishes
 categories: blog
 tags: ['python', 'regex', 'facebook']
+excerpt: 'Using regular expressions to detect happy birthday wishes while factoring in sms language variants.'
 date: February 7, 2014
 author: self
 ---

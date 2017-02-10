@@ -2,7 +2,8 @@
 layout: post
 title: GSoC Project Preview
 categories: blog
-tags: ['gsoc']
+tags: ['gsoc','python','zeromq']
+excerpt: 'Details about my mentoring organization for Google Summer of Code, 2014 and my project and goals that I will be working on over the next 12 weeks.'
 date: May 21, 2014
 author: self
 ---
