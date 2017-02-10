@@ -20,6 +20,6 @@ So, my project over the summer is mainly to provide with an alternate transport 
 
 A Message Transport is what I need. And having [worked](http://github.com/indradhanush/file-collection-server) with [ZeroMQ](http://zeromq.org/) a while ago, I knew that ZeroMQ was the perfect alternative. With ZeroMQ I will design a Client-Server architecture thats going to form the core of the new transport that I will write. This is just my project in a nutshell. There's more to it than just this. But then, that's going to end up in another blog post in the coming days.
 
-You can read my proposal [here](http://www.google-melange.com/gsoc/proposal/review/student/google/gsoc2014/indradhanush/5668600916475904). 
+You can read my proposal [here](http://bit.ly/gsocleap14). 
 
 Lastly, something I've wanted to say for more than a year. **Yes! I am a GSOCer!**
