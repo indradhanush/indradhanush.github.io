@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-excerpt: "An archive of blog posts sorted by date."
+excerpt: "My collected thoughts on programming and technoglogy in general"
 search_omit: true
 image:
   feature: keyboard.jpg
