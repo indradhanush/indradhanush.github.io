@@ -13,7 +13,7 @@ author: self
 
 ---
 
-Those who have know me personally are aware that I have a hard time
+Those who know me personally are aware that I have a hard time
 remembering things. This includes things I've worked on and things I am
 supposed to do. Up until now I have been saying this to myself and
 anyone who's noticed:
@@ -26,7 +26,7 @@ While I do allow myself to forget the unnecessary details of my day to
 day life, I now realize that I forget the important things as well which
 I shouldn't be missing out on easily.
 
-To give you a sense of what I'm mean, here are some points that I can
+To give you a sense of what I mean, here are some points that I can
 recall (no pun intended):
 
 * I forget things I've worked on in the last week
