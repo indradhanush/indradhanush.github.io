@@ -3,7 +3,9 @@ layout: post
 title: I forget things easily
 categories: blog
 tags: ['introspection', 'trello', 'productivity']
-excerpt: ''
+excerpt: "Remembering things doesn't come naturally to me. My thoughts
+and attempts on fixing this. What worked and what did not. And a plea
+for help."
 
 date: April 6, 2017
 
