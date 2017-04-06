@@ -6,4 +6,5 @@ This is my github pages blog powered by Jekyll and the [So Simple Theme](https:/
 ### Running the blog locally
 
 `bundler install`
+
 `bundler exec jekyll serve --watch`
