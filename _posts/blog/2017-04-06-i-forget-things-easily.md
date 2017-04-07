@@ -148,7 +148,7 @@ it has not worked out very well, for the following reasons:
 1. It is much harder to map my personal life's TODO's on a board. Both
    over generalization and compartmentalization will kill this approach.
 2. At work I have access to my laptop all the time and it is very easy
-   to note down things as they come. This is does not stand true for my
+   to note down things as they come. This does not stand true for my
    personal life as a result I fail to note important things down on the
    trello board when I do not have access to my laptop.
    
