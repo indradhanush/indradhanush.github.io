@@ -47,3 +47,12 @@ This is a collection of quotes that I've stumbled upon the internet and in books
 > Programs should be written for people to read, and only incidentally for machines to execute.
 >
 > --- Structure and Interpretation of Computer Programs
+
+
+<br/>
+
+> Anyone can become angry--- that is easy. But to be angry with the
+> right person, to the right degree, at the right time, for the right
+> purpose, and in the right way--- this is not easy.
+>
+> --- Aristotle, The Nicomacbean Ethics
