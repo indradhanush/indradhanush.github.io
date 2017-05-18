@@ -56,3 +56,9 @@ This is a collection of quotes that I've stumbled upon the internet and in books
 > purpose, and in the right way--- this is not easy.
 >
 > --- Aristotle, The Nicomacbean Ethics
+
+<br/>
+
+> If you want to go fast, go alone. If you want to go far, go together.
+>
+> --- Robin Jones Gunn, Coming Attractions
