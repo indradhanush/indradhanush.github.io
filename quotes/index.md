@@ -62,3 +62,11 @@ This is a collection of quotes that I've stumbled upon the internet and in books
 > If you want to go fast, go alone. If you want to go far, go together.
 >
 > --- Robin Jones Gunn, Coming Attractions
+
+<br/>
+
+> Forget about what you are escaping from, he said, quoting an old
+> maxim of Kornblum's. Reserve your anxiety for what you are escaping
+> to.
+>
+> ―-- Michael Chabon, The Amazing Adventures of Kavalier & Clay
