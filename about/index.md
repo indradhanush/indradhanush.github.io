@@ -9,15 +9,16 @@ image:
 If you didn't get the reference to the bash command above already, I
 am a command line nerd and I type at ~90wpm.
 
-I work in the engineering team at
-[Instamojo](https://www.instamojo.com/) where we are building the
-future of payments. Apart from working on the product, building
-internal tools and libraries, these days I'm working on the
-infrastructure that powers it all.
+I am currently at the [Recurse Center](https://www.recurse.com/)
+ spending my time to become a better programmer.
+
+Previously, I worked at [Instamojo](https://www.instamojo.com/) where
+I worked on the product, built internal tools and libraries and spent
+some time with the infrastructure team as well.
 
 I write about programming and very [recently](/blog/memories/) on
 human behaviour. Distributed sytems and network programming pique my
-interest
+interest.
 
 When not thinking about code, I play the drums or I
 [paint](/paintings/).
