@@ -14,6 +14,9 @@ One of the projects that I am exploring at RC, is writing a UNIX
 shell. This is the first part of a series of posts that will
 eventually follow.
 
+**Disclaimer: I am not a subject expert on writing shells and I am
+sharing my findings as I learn more about this myself.**
+
 ## What is a shell?
 
 A lot has been written about this, so I will not go into too much
@@ -119,7 +122,10 @@ Current PID: 85248 and Child PID: 0
 In the block under `### Parent ###`, the current process ID is `85247`
 and that of the child is `85248`. Note that the pid of the child is
 greater than that of the parent, implying that the child was created
-after the parent.
+after the parent. (Update: As someone correctly pointed out on [Hacker
+News](https://news.ycombinator.com/item?id=14439781) this isn't
+guaranteed, although the more likely scenario. Reason being that, the
+OS could recycle older unused process ids.
 
 In the block under `### Child ###`, the current process ID is `85248`,
 which is the same as the pid of the child in the previous
@@ -244,6 +250,7 @@ takes the following parameters:
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <sys/wait.h>
 
 int
 main() {
