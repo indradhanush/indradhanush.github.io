@@ -71,3 +71,6 @@ this incident and he pointed me to Cunnigham's Law:
     it is half baked. This enforces you to understand things much
     better than you thought you did. This is also known as the
     [Feynman Technique](https://mattyford.com/blog/2014/1/23/the-feynman-technique-model)
+
+I hope you find this useful when you are in a similar predicament. And
+if all else fails, go and talk to someone about it.
