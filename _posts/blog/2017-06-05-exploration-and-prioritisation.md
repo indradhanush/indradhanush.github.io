@@ -168,7 +168,7 @@ on leaving the laptop back at RC overnight. This has two advantages:
 Friday is the only exception to this rule though.
 
 I also visited the
-[American Museum of Natural History](http://www.amnh.org/) which blew
+[American Museum of Natural History](https://www.amnh.org/) which blew
 my mind over. It is huge and visiting all the exhibits in a single day
 is not feasible. I saw the space show at the planetarium there, which
 was a beautiful experience, after which I spent most of my time in the
