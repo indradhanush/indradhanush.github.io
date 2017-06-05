@@ -39,9 +39,9 @@ like this:
 
 But the most important one, where one of commenters pointed out a
 mistake in my post, and mentioned that I should state the fact that I
-am not a subject in this and am sharing my learnings as I go forward
-myself. So I fixed the error and put up a disclaimer on the post, and
-thanked them for pointing it out.
+am not a subject expert in this and am sharing my learnings as I go
+forward myself. So I fixed the error and put up a disclaimer on the
+post, and thanked them for pointing it out.
    
 I was speaking to [Saul Pwanson](https://github.com/saulpw/) about
 this incident and he pointed me to Cunnigham's Law:
