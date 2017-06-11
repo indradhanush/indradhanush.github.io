@@ -4,7 +4,7 @@ title: Writing a Unix Shell - Part I
 categories: blog
 tags: ['recurse-center', 'unix', 'operating-systems', 'C', 'shell']
 excerpt: 'Building your own UNIX shell in parts. This post focuses on
-the semantics of the fork system call'
+the semantics of the fork system call.'
 date: May 28, 2017
 author: self
 
@@ -283,8 +283,8 @@ finish execution after which it is free to execute its own commands.
 That's all for part I. All the code examples shown in this blog post
 are available
 [here](https://github.com/indradhanush/indradhanush.github.io/tree/master/code/shell-part-1/). In
-the next post, we will explore how to take a command as user input and
-execute it. Stay tuned.
+the [next post](/blog/writing-a-unix-shell-part-2/), we will explore
+how to take a command as user input and execute it. Stay tuned.
 
 ## Acknowledgements
 
