@@ -19,7 +19,7 @@ int main() {
         command = get_input(input);
 
         if (strcmp(command[0], "cd") == 0) {
-            if (cd(command[1]) == -1) {
+            if (cd(command[1]) < 0) {
                 perror(command[1]);
             }
 
@@ -28,14 +28,14 @@ int main() {
         }
 
         child_pid = fork();
-        if (child_pid == -1) {
+        if (child_pid < 0) {
             perror("Fork failed");
             exit(1);
         }
 
         if (child_pid == 0) {
             /* Never returns if the call is successful */
-            if (execvp(command[0], command) == -1) {
+            if (execvp(command[0], command) < 0) {
                 perror(command[0]);
                 exit(1);
             }

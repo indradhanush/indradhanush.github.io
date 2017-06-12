@@ -216,7 +216,7 @@ changes to [shell.c](/code/shell-part-2/shell.c):
         command = get_input(input);
 
         child_pid = fork();
-        if (child_pid == -1) {
+        if (child_pid < 0) {
             perror("Fork failed");
             exit(1);
         }
@@ -230,7 +230,7 @@ changes to [shell.c](/code/shell-part-2/shell.c):
   
 {% highlight c %}
     ...
-            if (execvp(command[0], command) == -1) {
+            if (execvp(command[0], command) < 0) {
                 perror(command[0]);
                 exit(1);
             }
@@ -312,7 +312,7 @@ And add a check in our `main` function for it:
         command = get_input(input);
 
         if (strcmp(command[0], "cd") == 0) {
-            if (cd(command[1]) == -1) {
+            if (cd(command[1]) < 0) {
                 perror(command[1]);
             }
 
@@ -347,6 +347,11 @@ handling user interrupts (Ctrl-C). Stay tuned.
 Thanks to [Dominic Spadacene](https://github.com/domspad) for pairing
 with me on this and to [Saul Pwanson](https://github.com/saulpw) for
 helping me solve the weird memory leaks when nothing seemed to be working.
+
+**Update**: Saul mentioned that checking for errors with `< 0` is
+conventionally better than `== -1`, since some APIs might return
+negative values other than just `-1` and `< 0` helps protect against
+those. I've updated the post and the code examples accordingly.
 
 ## Resources
 
