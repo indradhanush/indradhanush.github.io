@@ -10,7 +10,7 @@ If you didn't get the reference to the bash command above already, I
 am a command line nerd and I type at ~90wpm.
 
 I am currently at the [Recurse Center](https://www.recurse.com/)
- spending my time to become a better programmer.
+ spending my time to become a [better programmer](/tags/#recurse-center).
 
 Previously, I worked at [Instamojo](https://www.instamojo.com/) where
 I worked on the product, built internal tools and libraries and spent
