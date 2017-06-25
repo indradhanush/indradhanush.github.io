@@ -18,6 +18,12 @@ int main() {
         input = readline("unixsh> ");
         command = get_input(input);
 
+        if (!command[0]) {
+            free(input);
+            free(command);
+            continue;           /* Handle empty commands */
+        }
+
         if (strcmp(command[0], "cd") == 0) {
             if (cd(command[1]) < 0) {
                 perror(command[1]);

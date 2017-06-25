@@ -17,6 +17,12 @@ int main() {
         input = readline("unixsh> ");
         command = get_input(input);
 
+        if (!command[0]) {      /* Handle empty commands */
+            free(input);
+            free(command);
+            continue;
+        }
+
         child_pid = fork();
         if (child_pid == 0) {
             /* Never returns if the call is successful */
