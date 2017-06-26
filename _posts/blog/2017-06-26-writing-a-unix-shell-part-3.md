@@ -484,7 +484,7 @@ The code for the shell with the concepts explained above is available
 [here](/code/shell-part-3/shell.c/), but it is recommended that
 readers try to implement it themselves.
 
-That brings us to the end of Part III. All the code examples shown in
+That brings us to the end of part III. All the code examples shown in
 this blog post are available
 [here](https://github.com/indradhanush/indradhanush.github.io/tree/master/code/shell-part-3/). In
 the next blog post we will see how to run background commands and

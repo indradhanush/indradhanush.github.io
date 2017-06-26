@@ -339,8 +339,9 @@ unixsh>
 And that brings us to the end of part II. All the code examples shown
 in this blog post are available
 [here](https://github.com/indradhanush/indradhanush.github.io/tree/master/code/shell-part-2/). In
-the next blog post we will explore the topic of signals and implement
-handling user interrupts (Ctrl-C). Stay tuned.
+the [next blog post](/blog/writing-a-unix-shell-part-3/) we will
+explore the topic of signals and implement handling user interrupts
+(Ctrl-C). Stay tuned.
 
 ## Acknowledgements
 
