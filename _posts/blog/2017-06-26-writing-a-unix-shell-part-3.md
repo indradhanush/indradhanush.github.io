@@ -47,9 +47,26 @@ when a program is between instructions. It may occur when an
 instruction is executing and in such a case the instruction _will_ get
 interrupted.
 
-One important thing to note is that, while the main function runs in
+~~One important thing to note is that, while the main function runs in
 its own thread the signal handler also runs in its own thread. Both
-the threads belong to the same process though.
+the threads belong to the same process though.~~
+
+Edit: I misunderstood this line from `The Linux Programming
+Interface, section 21.1.2`:
+
+> Because a signal handler may asynchronously interrupt the execution
+> of a program at any point in time, the main program and the signal
+> handler in effect form two independent (althought not concurrent)
+> threads of execution within the same process.
+
+I asked around on IRC<sup>[1]</sup> about this and it turns out that,
+"in effect" is the keyword here. It does not really create a thread
+for the signal handler. However, when a signal is delivered, the
+signal handler asynchronously interrupts a thread (in our case the
+main thread since we have a single threaded application). Once
+interrupted, the signal handler executes its own code, and the thread
+may resume execution unless the signal handler exits the program. The
+analogy to multiple threads helps to understand the flow of execution.
 
 ## Signal handling
 
@@ -496,6 +513,10 @@ Once again thanks to [Dominic Spadacene](https://github.com/domspad)
 for pairing with me on this and to
 [Saul Pwanson](https://github.com/saulpw) for being patient with my
 endless questions.
+
+[1] - Also, thanks to `valdis` and `derRichard` on `#kernelnewbies
+(irc.oftc.net)` for helping me understand the asynchronous nature of a
+signal handler.
 
 ## Resources
 
