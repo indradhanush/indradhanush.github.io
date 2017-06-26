@@ -4,6 +4,7 @@
 #include <readline/readline.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <signal.h>
 
 char **get_input(char *);
 int cd(char *);
@@ -13,6 +14,8 @@ int main() {
     char *input;
     pid_t child_pid;
     int stat_loc;
+
+    signal(SIGINT, SIG_IGN);
 
     while (1) {
         input = readline("unixsh> ");
@@ -49,8 +52,10 @@ int main() {
             waitpid(child_pid, &stat_loc, WUNTRACED);
         }
 
-        free(input);
-        free(command);
+        if (!input)
+            free(input);
+        if (!command)
+            free(command);
     }
 
     return 0;
