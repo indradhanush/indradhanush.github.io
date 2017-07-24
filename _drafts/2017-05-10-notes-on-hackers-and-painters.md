@@ -1,4 +1,16 @@
-#Hackers & Painters
+---
+layout: post
+title: Notes on Hackers & Painters
+categories: blog
+tags: ['books', 'notes']
+excerpt: "My understanding of Paul Graham's book - Hackers & Painters
+along with excerpts from the book."
+date: May 05, 2017
+
+author: self
+
+---
+
 Hackers & Painters is an insider's perspective on the programming
 fraternity told by Paul Graham. Following are my notes and thoughts
 on the book along with a few phrases picked verbatim from it. These
@@ -150,3 +162,155 @@ learned.
 > something when it's easy to buy.
 > Users should not have to do much more than enter a credit card
 > number. (Make them do more at your peril.)
+
+* Large companies tend to buy expensive solutions even though cheaper
+  ones are available. An expensive solution costs more to sell. When
+  finding potential customers, go for the smaller ones first. The
+  bigger ones will follow in time.
+* With the advent of the desktop computer, writing software became
+  more accessible. It became cheaper to produce software compared to
+  when you needed a mainframe to write code.
+* Microsoft was able to exploit this and beat IBM. But Microsoft might
+  get dealt a similar hand, because now computing is moving away from
+  the desktop and Microsoft is trying hard to hold on to it, quite
+  like how IBM tried to hold on to mainframe computing.
+* The idea of starting up became easier with desktops. As the years
+  have gone by, startups have become more and more informal and more
+  stressful. Since web based applications are never quite finished,
+  you can never really say: _Now that we've finisished our product we
+  can all pack our bags and go take a vacation for a week_. You work
+  more than your competition because you can. Because startups demand
+  it.
+* Hackers think about starting up all the time. But they don't because
+  they are thinking that they don't know how to run a business and are
+  mostly afraid of competition.
+  
+> There are only two things you have to know about business: build
+> something users love, and make more than you spend. If you get these
+> two right, you'll be ahead of most startups. You can figure out the
+> rest as you go.
+
+* In the early days you will probably not earn more than your
+  spends. But if you are closing the gap fast, things will turn out
+  well.
+* Release an initial version of your product first and listen to your
+  customers. They will tell you what can be simplified. And what new
+  features can be added.
+
+> The best thing software can be is easy, but the way to do this is to
+> get the defaults right, not to limit users' choices. Don't get
+> complacent if your competitors' software is lame; the standard to
+> compare your software to is what it could be, not what your current
+> competitors happen to have. Use your software yourself, all the
+> time.
+
+* Big companies are scared of startups because they can't move as fast
+  as a startup. Bureaucracy.
+
+### How to Make Wealth
+
+* You are more productive at a startup by an order of magnitude. You
+  can work more for a fewer number of years, but with greater
+  intensity. 
+* You can get more done with less at a startup.
+* But startups are not easy. If it were so, everyone would do it.
+
+> There is a conservation law at work here: if you want to make a
+> million dollars, you have to endure a million dollars' worth of
+> pain.
+
+* Make something that people want. 
+* Money is not the same as wealth. Although they are used
+  interchangeably, but they are not the same.
+* Money is used as an intermediate step. You use it to get what you
+  want. What you want is known as wealth. Think of the barter system
+  and the problems it had. You can't exchange a sack of rice with a
+  cobbler if he wants a bag of leather. Instead you use money to get
+  what you want, i.e. wealth. Money _creates_ wealth by making it
+  possible to give others what they want.
+* Wealth can be created out of nothing. By adding _value_ to something
+  you are creating wealth.
+* A job is a group of people working together trying to build
+  something people want.
+* A company must earn money to survive. This can only be done if it is
+  building something that people want.
+* Your efforts at your job get averaged by a lot of other people's
+  work.
+* Measuring performance for a salesperson is easy. It is hard to do
+  the same for others. The designer. The hacker. The marketer. Success
+  of a product is a combined effort of all of these combined. But
+  there is no way to measure the impact of each group for their
+  efforts. As a result, the performance gets averaged out.
+* Smaller groups can be measured with greater accuracy. It is easy to
+  spot the lazy one among a small group of 10 than it is to spot them
+  in a group of 1000.
+* A startup is a group of people like you who are willing to work
+  harder. Its a group of ambitious people who already know each other
+  personally and by reputation.
+  
+> Steve Jobs once said that the success or failure of a startup
+> depends on the first ten employees. I agree. If anything, it's more
+> like the first five. Being small is not, in itself, what makes
+> startups kick butt, but rather that small groups can be select. You
+> don't want small in the sense of a village, but small in the sense
+> of an all-start team.
+
+* In a larger group, the average person is an average of the
+  population. A hard working person in a large group is getting
+  averaged out by average members of the team.
+* At decision points, choose the harder problem. It is more
+  challenging for a big company to solve a hard problem. By choosing
+  the harder problem, you are putting more distance between yourself
+  and your competitors. The greater the distance, the safer you are.
+* Startups are inherently risky. You would work 30x as hard. But the
+  payoff could be anything between zero and thousand times. Chances of
+  the payout being zero are much greater.
+* Its easy to sell an established startup, because it looks safer
+  compared to an early stage one.
+* Selling a startup is a good idea. It also allows you to diversify.
+
+> Potential buyers will always delay if they can. The hard part about
+> getting bought is getting them to act. For most people, the most
+> powerful motivator is not the hope of gain, but the fear of
+> loss. For potential acquirers, the most powerful motivator is the
+> propsect that one of their competitors will buy you...The second
+> biggest is the worry that, if they don't buy you now, you'll
+> continue to grow rapidly and will cost more to acquire later, or
+> even become a competitor.
+
+* Don't just solve cool tech problems. Solve problems that impacts the
+  users. Build products that users want. Not the other way around.
+* A startup is an optimization problem: Performance is measured by the
+  number of users. This is the only metric that matters.
+* But you cannot optimize unless you measure: Ship an initial version,
+  get some users and optimize based on the results. There is no point
+  in optimizing in the dark. (Premature optimization)
+* If you take away the incentive of wealth, innovation grinds to a
+  halt. Some governents have done this in the past and continue to do
+  so.
+
+### Mind the Gap
+
+* Making money is a specialized skill similar to that of playing a
+  game of chess at the highest level.
+* But the society is trained to complain when someone outperforms
+  everyone else in the skill of making money, while specializing on
+  how to play chess seems perfectly normal.
+* As kids we think that money is something that is handed down.
+* Wealth is not money. Money is a medium used to exchange wealth.
+* Wealth needs to be generated.
+* A more productive person is paid more for their skills. The more
+  wealth that you can generate, the higher salary you can command.
+
+> How much someone's work is worth is not a policy question. It's
+> something the market already determines...It may seem unlikely in
+> principle that one individual could really generate so much more
+> wealth than another. The key to this _Would_ a basketball team trade
+> one of their players for 100 random people? What would Apple's next
+> product look like if you replaced Steve Jobs with a committee of 100
+> random people? These things don't scale linearly.
+
+* Prices are determined by what a buyer wants, and how much s/he is
+  willing to pay for it.
+
+* 
