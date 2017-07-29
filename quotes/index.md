@@ -70,3 +70,9 @@ This is a collection of quotes that I've stumbled upon the internet and in books
 > to.
 >
 > ―-- Michael Chabon, The Amazing Adventures of Kavalier & Clay
+
+<br/>
+
+> We are punished by our sins, not for them.
+>
+> --- Elbert Hubbard
