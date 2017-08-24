@@ -9,14 +9,15 @@ image:
 If you didn't get the reference to the bash command above already, I
 am a command line nerd and I type at ~90wpm.
 
-I am currently at the [Recurse Center](https://www.recurse.com/)
- spending my time to become a [better programmer](/tags/#recurse-center).
+I just finished my batch at the
+[Recurse Center](https://www.recurse.com/) where I spent my time to
+become a [better programmer](/tags/#recurse-center).
 
-Previously, I worked at [Instamojo](https://www.instamojo.com/) where
-I worked on the product, built internal tools and libraries and spent
-some time with the infrastructure team as well.
+Previously, I was at [Instamojo](https://www.instamojo.com/) for
+almost three years where I worked across almost the entire backend
+codebase and spent some significant time on the infrastructure team.
 
-I write about programming and very [recently](/blog/memories/) on
+I write about programming and very [recently](/tags/#human-behaviour) on
 human behaviour. Distributed sytems and network programming pique my
 interest.
 
