@@ -11,7 +11,8 @@ am a command line nerd and I type at ~90wpm.
 
 I just finished my batch at the
 [Recurse Center](https://www.recurse.com/) where I spent my time to
-become a [better programmer](/tags/#recurse-center).
+become a [better programmer](/tags/#recurse-center) and am currently
+looking for my next programming job.
 
 Previously, I was at [Instamojo](https://www.instamojo.com/) for
 almost three years where I worked across almost the entire backend
