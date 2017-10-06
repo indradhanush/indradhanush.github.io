@@ -93,7 +93,7 @@ mean:
   python script, _sum.py_ that accepts two numbers and print the sum
   you would possibly run it like: `python sum.py 3 4`. Here, `sum`,
   `3` and `4` are stored in this green segement. The `$PATH`
-  environment variable, which is a available to most programs is also
+  environment variable, which is available to most programs is also
   stored here.
 
 - **Orange brick** - The kernel is mapped onto this segment. When a
