@@ -5,7 +5,7 @@ locale: en_US
 description: Hack to learn
 logo: site-logo.jpg
 search: true
-url: https://indradhanush.github.io
+url: http://127.0.0.1:4000
 
 # Jekyll configuration
 
@@ -15,7 +15,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed

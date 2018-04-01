@@ -305,12 +305,26 @@ learned.
 > How much someone's work is worth is not a policy question. It's
 > something the market already determines...It may seem unlikely in
 > principle that one individual could really generate so much more
-> wealth than another. The key to this _Would_ a basketball team trade
-> one of their players for 100 random people? What would Apple's next
-> product look like if you replaced Steve Jobs with a committee of 100
-> random people? These things don't scale linearly.
+> wealth than another. The key to this mystery is to revisit that
+> question, are they really worth 100 of us? _Would_ a basketball team
+> trade one of their players for 100 random people? What would Apple's
+> next product look like if you replaced Steve Jobs with a committee
+> of 100 random people? These things don't scale linearly. Perhaps the
+> CEO or the professional athlete has only ten times (whatever that
+> means) the skill and determination of an ordinary person. But it
+> makes all the difference that it's concentrated in one individual.
 
 * Prices are determined by what a buyer wants, and how much s/he is
   willing to pay for it.
+* As kids, we are dependent on parents for money which gives us an
+  impression from a very early age that wealth is something that is
+  distributed rather than created. But our parents had to do an
+  equivalent amount of work in exchange for the money that they
+  earned. They had to generate value for someone which translated back
+  in terms of money in return.
+* Wealth is not a zero sum game. You can generate wealth without
+  stealing from someone.
+* Technnology will increase the gap between the productive and the
+  unproductive which is the exact problem it aims to solve - to be
+  more efficient.
 
-* 

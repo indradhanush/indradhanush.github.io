@@ -1,0 +1,155 @@
+---
+layout: post
+title: "Notes on Designing Data-Intensive Applications"
+categories: blog
+tags: ['notes', 'books']
+excerpt: ''
+author: self
+
+---
+
+## Chapter 1: Reliable, Scalable and Maintainable Applications
+
+* Applications are now more data intensive rather than being cpu intensive.
+* Generally data intensive apps need: database, cache, search indexes,
+  stream processing, batch processing.
+* While databases, queues, caches appear to be similar in the sense
+  that they store data, they still have different designs when it
+  comes to accessing it and make different compromises.
+* Redis being a data store is used as a queue, while Kafka being a
+  message queue provides durability guarantees typically found in
+  databases. It appears that fundamentally, these systems are
+  converging.
+* With the large amounts of data that applications need to handle
+  these days, individual tasks are being broken down into separate
+  tools. This is where separation of concern kicks in. And the
+  different components communicate via APIs.
+* Reliability: Even if the system encounters errors, it should
+  continue to function _correctly_, i.e. it should provide the correct
+  output for any given input. It should also be usable in terms of
+  performance even at unusually high loads.
+* Fault vs failure: Fault means when a part of the system has an
+  unexpected behaviour. Failure is when the entire system stops
+  functioning. One or more faults can cause a failure.
+* Building fault tolerant systems is important since it cannot be
+  guaranteed that the system will never encounter any fault.
+* Testing the fault tolerance of a system is important.
+* Hardware failures: Most expected of faults in any system. These are
+  fairly common. With the increase in hardware, chances of a component
+  failing also go up.
+* It is rare for a large number of number of hardware components to
+  fail simultaenously.
+* Failures can also come from application code in the form of bugs.
+* There is no magic solution to fixing faults. It requires careful
+  thought to understand the underlying software being written; the
+  assumptions being made.
+* With testing, monitoring, analyzing and measuring the software,
+  these faults can be reduced over time.
+* A large portion of errors are caused by humans themselves.
+* We should design software with the aim to minimize the ways in which
+  errors can take place.
+* A very restrictive interface is a very counter inutitive way to
+  increase the chances of errors, since users will typically find
+  their way around them, thus rendering them useless in the first
+  place.
+* Separate sandbox environment that is identical to production with
+  real data but unrelated to the production environment itself makes
+  for a good testing ground.
+* Rolling back changes should be trivial and new changes should
+  ideally be released gradually, by limiting the number of users that
+  are exposed to it in the beginning.
+* Monitoring helps to understand performance and errors.
+* Sometimes making a trade-off seems like the only option, but before
+  that one needs to think hard about the potential side effects in the
+  longer run.
+* Scalability is a system's ability to handle increasing load over
+  time.
+* To understand the bottlenecks in a system, understanding the user
+  access patterns is important, i.e. how do the users of the system
+  typically use it.
+* Response time is the total time it takes for a request to be handled
+  and a response to be received by the client.
+* Latency is the time a request waits before it is handled.
+* Average as a metric for response time hides some details like how
+  many users are experiencing delays. Using percentile is a better way
+  to gauge response times. The percentile gives the median response,
+  which is the 50th percentile. This means that half the users are
+  below the 50th percentile while the other half are above it.
+* Head of line blocking: A slow request can block all subsequent
+  requests even though they may be small. The client would remain
+  blocked until the slow request can be processed out.
+* Tail latency amplification: If a client request requires multiple
+  intermediate calls being executed in parallel, the slowest of them
+  will hold up the client request. The response is only as fast as the
+  slowest part of the request.
+* Vertical scaling: Using a more powerful computer to serve the
+  application.
+* Horizontal scaling: Distributing the load over multiple but smaller
+  machines. This is harder to do correctly. While vertical scaling is
+  simpler but gets expensive very fast.
+* Elastic system: With increasing load, computing resources are added
+  automatically.
+* Stateless applications can be easily scaled across multiple
+  machines. However, stateful applications are much harder to scale
+  across multiple machines.
+* Before setting out to apply scaling strategies, it is important to
+  understand the system's usecase, i.e. is it read heavy or write
+  heavy? Does it require more CPU or more I/O? Does it have a high
+  number of requests small in size or a small number of requests but
+  larger in size?
+* Software should be designed in a way such that maintaining it is
+  easy in the future, by making it easy to run and deploy, easy to
+  understand for a new person coming into that project and making it
+  easy to make changes to the software.
+* To make a system easily operable, it should be easy to monitor
+  metrics, perform upgrades, set defaults but be overrideable by
+  administrators, should have updated packages and security patches
+  and be predictable in behaviour without a lot of unknown surprises.
+* Small projects are simple and easy to maintain. They become complex
+  over time. Tight of coupling of modules, inter dependent components,
+  inconsistent naming and a host of hacks spread throughout the
+  codebase are common signs of a complex project.
+* Consequently, such a system is hard to understand and easy to
+  introduce bugs.
+* Simple abstractions make the project easy to understand while hiding
+  the internal details.
+
+
+## Chapter 2: Data Models and Query Languages
+
+- Software is built on top of abstractions. Bytes are an abstraction
+  of electrical current. And formats like JSON/XML are an abstraction
+  of bytes. Each abstraction helps to provide a cleaner interface for
+  the consumer and it also limits what a consumer can and cannot do
+  based on how the abstraction is modelled. This constraint makes it
+  very important to choose the appropriate data model for representing
+  one's data based on the application being used.
+
+- The relational data model (SQL) emerged very early on and has been
+  actively used. SQL uses tables to organize data. Each entry in the
+  table is called a relation and is an unordered collection of tuples,
+  also known as a row.
+
+- NoSQL emerged very late and diverges from the traditional model of
+  storing data by maintaining relations. The main reasons were:
+  greater scalability as opposed to what relational databases could
+  provide easily, high throughput and large datasets.
+
+- While an ORM bridges the gap between OOP applications and the SQL
+  data model, they can't completely hide the differences between the
+  two models.
+
+- As an example, a resume stores information like name, education and
+  the companies someone has worked at. Although a person will have
+  only one name, there can be more than one entry for both education
+  and companies, thus requiring the one to many relation between
+  tables connected by a foreign key. This makes querying complicated,
+  since a simple query to fetch the details of a person requires joins
+  across the tables.
+
+- If a JSON store is used instead of a relational model, all the
+  information can be easily stored under a single JSON document which
+  can support multiple keys under a main heading key like
+  education. This also has better locality than a relational schema
+  while also making it easy for applications to represent the
+  data.
