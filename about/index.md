@@ -7,20 +7,18 @@ image:
 ---
 
 If you didn't get the reference to the bash command above already, I
-am a command line nerd and I type at ~90wpm.
+am a command line nerd and I type at ~90wpm. I have been programming
+for close to ten years, five of them professionally.
 
-I just finished my batch at the
-[Recurse Center](https://www.recurse.com/) where I spent my time to
-become a [better programmer](/tags/#recurse-center) and am currently
-looking for my next programming job.
+I'm currently having a lot of fun working remotely from India in the
+containers and distributed systems space at
+[Kinvolk](https://kinvolk.io). Prior to that I attended the [Recurse
+Center](https://www.recurse.com/), where I spent my time in becoming a
+[better programmer](/tags/#recurse-center).
 
-Previously, I was at [Instamojo](https://www.instamojo.com/) for
-almost three years where I worked across almost the entire backend
-codebase and spent some significant time on the infrastructure team.
-
-I write about programming and very [recently](/tags/#human-behaviour) on
-human behaviour. Distributed sytems and network programming pique my
-interest.
+I write about programming and very [recently](/tags/#human-behaviour)
+on human behaviour. Distributed sytems and network programming pique
+my interest.
 
 When not thinking about code, I play the drums or I
 [paint](/paintings/).
