@@ -150,7 +150,9 @@ single line:
 state=$(kubectl get nodes node-0 -o json | jq ".status.conditions[-1])"
 ```
 
-The filters to `jq` are Kubernetes specific filters.
+The `-o json` flag instructs the Kubernetes API to return the reponse
+in `json` and we pipe the result to `jq` for further processing, where
+the filters are specific to Kubernetes.
 
 ## Addendum &#x1F4E2;
 
