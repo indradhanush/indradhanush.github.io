@@ -498,7 +498,7 @@ following snippet helps us do this:
 {% endhighlight %}
     
 The code for the shell with the concepts explained above is available
-[here](/code/shell-part-3/shell.c/), but it is recommended that
+[here](/code/shell-part-3/shell.c), but it is recommended that
 readers try to implement it themselves.
 
 That brings us to the end of part III. All the code examples shown in
