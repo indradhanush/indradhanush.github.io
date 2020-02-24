@@ -8,7 +8,7 @@ date:  24 February, 2020
 author: self
 ---
 
-__Disclaimer:__ I gave a talk of the same title at Kubernetes Forum Delhi last week. You may watch the [video on YouTube](https://www.youtube.com/watch?v=gHR8V02dI48&t=24s) if you prefer that. Additionally this post also serves as a reference for the commands used in the demos.
+__Disclaimer:__ I gave a talk of the same title at [Kubernetes Forum Delhi](https://events.linuxfoundation.org/kubernetes-forum-delhi/) last week. You may watch the [video on YouTube](https://www.youtube.com/watch?v=gHR8V02dI48&t=24s) if you prefer that. Additionally this post also serves as a reference for the commands used in the demos.
 
 I have been programming for almost six years now and have used containers for nearly the entirety of that time. For what comes with being a programmer, curiosity got the better of me and I started asking around the question, that what is a container? One of the answers were along the lines of the following:
 
