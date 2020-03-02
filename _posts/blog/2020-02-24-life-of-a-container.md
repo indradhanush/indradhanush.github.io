@@ -12,7 +12,7 @@ __Disclaimer:__ I gave a talk of the same title at [Kubernetes Forum Delhi](http
 
 I have been programming for almost six years now and have used containers for nearly the entirety of that time. For what comes with being a programmer, curiosity got the better of me and I started asking around the question, that what is a container? One of the answers were along the lines of the following:
 
-"Oh they're like virtual machines but only that they do not have their own kernel and share the hosts kernel."
+"Oh they're like virtual machines but only that they do not have their own kernel and share the host's kernel."
 
 This led me to believe for a long time that containers are a lighter form of virtual machines. And they felt like magic to me. Only when I started digging into the internals of a container much later did I realize that this quote felt very true:
 
