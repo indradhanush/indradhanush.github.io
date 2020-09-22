@@ -295,6 +295,11 @@ PING 10.16.8.1 (10.16.8.1) 56(84) bytes of data.
 
 Voila! We did it! I hope that helps with understanding namespaces better. What we did above can be best described by this image of two children talking to each other with a string telephone made up of tin cans and a long string. In this image, the children can be thought of as the namespaces while the tin cans are analogous to the virtual ethernet devices we created and used for sending and receiving network traffic.
 
+<figure>
+	<img src="{{ site.url }}/images/life-of-a-container/telephone.png" alt="form-network-namespace" />
+</figure>
+
+
 ## cgroups
 
 Next up is cgroups. They help us in controlling the __amount__ of the resources that a process can consume. The best examples for this are CPU and memory. And the best use case to do this is to avoid a process from accidentally using all the available CPU or memory and choking the entire system from doing anything else. The cgroups reside under the `/sys/fs/cgroup` directory. Let us take a look at the contents:
