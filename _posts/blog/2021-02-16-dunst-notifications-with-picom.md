@@ -74,4 +74,4 @@ transparency = 0
 
 🎉 Restarted `dunst` and voila! The notifications started showing up when
 `picom` was running. And that too without any additional configurations on
-`picom`!
+`picom`! I can now go back to using DND in `dunst` the way the authors intended. 😅
