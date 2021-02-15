@@ -12,5 +12,8 @@
 - title: Paintings
   url: /paintings/
 
+- title: Tags
+  url: /tags/
+
 - title: Search
   url: /search/

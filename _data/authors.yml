@@ -1,6 +1,20 @@
 # Authors
-
 self:
   name: Indradhanush Gupta
   email: indradhanush.gupta@gmail.com
-  twitter: indradhanush92
+  twitter: "@indradhanush92"
+  links:
+    - title: Twitter
+      url: https://twiter.com/indradhanush92
+      icon: fab fa-twitter-square
+    - title: Github
+      url: https://github.com/indradhanush
+      icon: fab fa-github-square
+    - title: Resume
+      url: /Indradhanush-Gupta-Resume.pdf
+      # icon: far fa-file-pdf
+      # icon: fas fa-file-pdf
+      icon: fas fa-code
+      # icon: fas fa-file-alt
+      # icon: fas fa-briefcase
+      # icon: fas fa-laptop-code
