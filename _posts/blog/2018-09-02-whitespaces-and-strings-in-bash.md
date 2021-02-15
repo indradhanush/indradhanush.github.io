@@ -2,7 +2,7 @@
 layout: post
 title: 'Whitespaces and strings in Bash'
 categories: blog
-tags: ['programming', 'bash', 'kubernetes', 'kinvolk']
+tags: ['programming', 'bash', 'kubernetes', 'kinvolk', 'debugging']
 excerpt: 'Yet another bug when manipulating strings in bash and lessons learned from this exercise.'
 date:  2 September, 2018
 author: self
