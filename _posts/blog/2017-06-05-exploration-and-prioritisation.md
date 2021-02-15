@@ -6,8 +6,7 @@ tags: ['recurse-center']
 excerpt: 'Summary of the second week at the Recurse Center'
 date: June 5, 2017
 author: self
-image:
-    feature: exploration-and-prioritisation/cover.jpg
+image: /images/exploration-and-prioritisation/cover.jpg
 
 ---
 

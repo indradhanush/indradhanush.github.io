@@ -2,7 +2,7 @@
 layout: post
 title: 'A Helm debugging story'
 categories: blog
-tags: ['programming', 'kubernetes', 'helm', 'kinvolk']
+tags: ['programming', 'kubernetes', 'helm', 'kinvolk', 'debugging']
 excerpt: 'A description about an annoying bug and the lessons learned from it'
 date:  19 April, 2018
 author: self

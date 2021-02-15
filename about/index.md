@@ -3,7 +3,7 @@ layout: page
 title: who am i
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: work.jpg
+feature: /images/work.jpg
 ---
 
 If you didn't get the reference to the bash command above already, I

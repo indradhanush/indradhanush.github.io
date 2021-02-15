@@ -6,8 +6,6 @@ tags: ['gsoc','python','zeromq']
 date: June 2, 2014
 excerpt: 'Progress update on my Google Summer of Code, 2014 project under LEAP. An in-depth discussion about the system architecture that I will implement in the coming weeks.'
 author: self
-image:
-  feature: work.jpg
 ---
 
 This post describes my progress into my GSoC project at the end of

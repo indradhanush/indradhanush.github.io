@@ -2,7 +2,7 @@
 layout: post
 title: Writing a Unix Shell - Part III
 categories: blog
-tags: ['recurse-center', 'unix', 'operating-systems', 'C', 'shell']
+tags: ['recurse-center', 'unix', 'operating-systems', 'C', 'shell', 'linux']
 excerpt: 'Building your own UNIX shell in parts. This post explains
 signal handling.'
 date: June 26, 2017

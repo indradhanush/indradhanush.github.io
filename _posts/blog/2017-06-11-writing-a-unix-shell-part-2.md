@@ -2,7 +2,7 @@
 layout: post
 title: Writing a Unix Shell - Part II
 categories: blog
-tags: ['recurse-center', 'unix', 'operating-systems', 'C', 'shell']
+tags: ['recurse-center', 'unix', 'operating-systems', 'C', 'shell', 'linux']
 excerpt: 'Building your own UNIX shell in parts. This post explains
 how to execute commands.'
 date: June 11, 2017

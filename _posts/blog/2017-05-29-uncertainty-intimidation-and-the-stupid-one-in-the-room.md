@@ -3,13 +3,10 @@ layout: post
 title: Uncertainty, Intimidation & the Stupid one in the room
 categories: blog
 tags: ['recurse-center']
-excerpt: 'Summing up my thoughts on my first week at the Recurse
-Center'
+excerpt: 'Summing up my thoughts on my first week at the Recurse Center'
 date: May 29, 2017
 author: self
-image:
-    feature: rc.jpg
-
+image: /images/rc.jpg
 ---
 
 It has been a week since I arrived at New York and I have also managed

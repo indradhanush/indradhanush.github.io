@@ -2,7 +2,7 @@
 layout: post
 title: Writing a Unix Shell - Part I
 categories: blog
-tags: ['recurse-center', 'unix', 'operating-systems', 'C', 'shell']
+tags: ['recurse-center', 'unix', 'operating-systems', 'C', 'shell', 'linux']
 excerpt: 'Building your own UNIX shell in parts. This post focuses on
 the semantics of the fork system call.'
 date: May 28, 2017

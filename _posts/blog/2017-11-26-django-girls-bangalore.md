@@ -6,9 +6,7 @@ tags: ['programming', 'mentoring']
 excerpt: 'Thoughts from my second Django Girls event as coach'
 date: November 26, 2017
 author: self
-image:
-    feature: django-girls-bangalore/cover.jpg
-
+image: /images/django-girls-bangalore/cover.jpg
 ---
 
 Earlier this month on 11th November I participated in Django Girls,
