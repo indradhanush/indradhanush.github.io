@@ -4,20 +4,16 @@ This is my github pages blog powered by Jekyll and the [So Simple Theme](https:/
 
 ### Setting up
 
-Ensure that `ruby` is installed and run:
-
-```
-gem install bundler -v 1.16.1
+Ensure that `ruby` is installed and gem install bundler -v 1.16.1
 
 # Install blog dependencies locally at vendor/bundle under project root.
-bundler install --path vendor/bundle
+bundle config set path vendor/bundle
+bundler install
 ```
 
 ### Running the blog locally
 
 `bundler exec jekyll serve --watch`
-
-
 
 ### Local configuration
 
