@@ -220,7 +220,7 @@ in public. But if you're curious and would like to find out more about my
 compiler (more like an interpreter since I manage to write code that compiles it
 technically), I'd be happy to chat or pair program and maybe revisit some of the
 concepts! Send me a DM on
-[Twitter](https://twitter.com/indradhanush92/status/1577478322271162368" "My
+[Twitter](https://twitter.com/indradhanush92 "My
 twitter profile") or an email.
 
 👀 **TL;DR**
