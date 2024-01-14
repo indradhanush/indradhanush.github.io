@@ -87,7 +87,7 @@ defaults:
     values:
       layout: pages
       comments: true
-      share: false
+      share: true
 
 # Footer links
 footer_links:
