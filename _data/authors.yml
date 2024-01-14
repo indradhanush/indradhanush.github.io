@@ -14,7 +14,7 @@ self:
       url: /Indradhanush-Gupta-Resume.pdf
       # icon: far fa-file-pdf
       # icon: fas fa-file-pdf
-      icon: fas fa-code
+      icon: fas fa-file-pdf
       # icon: fas fa-file-alt
       # icon: fas fa-briefcase
       # icon: fas fa-laptop-code
