@@ -217,11 +217,10 @@ for me to share any of the code without also giving away those example programs.
 
 And since this was a paid course it would feel ethically wrong to share them out
 in public. But if you're curious and would like to find out more about my
-compiler (more like an interpreter since I manage to write code that compiles it
-technically), I'd be happy to chat or pair program and maybe revisit some of the
-concepts! Send me a DM on
-[Twitter](https://twitter.com/indradhanush92 "My
-twitter profile") or an email.
+compiler (more like an interpreter since I didn't manage to write code that
+compiles it technically), I'd be happy to chat or pair program and maybe revisit
+some of the concepts! Send me a DM on
+[Twitter](https://twitter.com/indradhanush92 "My twitter profile") or an email.
 
 👀 **TL;DR**
 
