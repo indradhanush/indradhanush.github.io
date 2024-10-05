@@ -65,7 +65,7 @@ repeat themselves, but that is okay.
 * __Safety__ is ensured. Never returns an incorrect result under
   [non-byzantine conditions](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance).
 * The system remains functional as log as the majority of the servers
-  are up. For \\( N \\) servers, at \\( N/2 + 1 \\) servers must remain up.
+  are up. For `N` servers, at `N/2 + 1` servers must remain up.
 * Servers fail if they,
   - stop.
   - cannot communicate with the other nodes or clients.
@@ -197,7 +197,7 @@ This does not consider a tie during a leader election.
 * Servers will store the current term number. The term number is
   exchanged whenever servers communicate.
 * If a server sees its term lower than another server, it updates to
-  the maximum value, i.e. \\( T = max(T1, T2) \\)
+  the maximum value – `T = max(T1, T2)`
 * If a leader discovers that its term is out of date, it will __step
   down__ immediately and become a _follower_.
 * If a server receives a request with a stale term number, the request

@@ -1,5 +1,5 @@
 \#*
-.*
+# .*
 *.*~
 _site
 ideas
@@ -59,3 +59,7 @@ dkms.conf
 
 # Ruby bundler
 vendor/
+.bundle
+
+# GitHub
+.github
