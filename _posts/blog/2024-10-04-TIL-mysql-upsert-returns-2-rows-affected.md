@@ -135,6 +135,11 @@ Morale of the story? Write tests! 😛
 
 If you'd like to check out the code and play around with it yourself you can find it [here](https://github.com/indradhanush/mysql-rows-affected-go). And if you liked this blog post, I won't mind you adding a star on the GitHub repo. 😁 
 
+Edit: I went looking for the docs _after_ I published this post today, and found out that this is a  [well-documented and expected behaviour](https://dev.mysql.com/doc/refman/8.4/en/insert-on-duplicate.html):
+
+> With ON DUPLICATE KEY UPDATE, the affected-rows value per row is 1 if the row is inserted as a new row, 2 if an existing row is updated, and 0 if an existing row is set to its current values.
+
+While, Postgres on the other hand will return 1 rows affected as the result. While I still find it counter-intuitive, my best guess as to why MySQL chose to do this way is that the authors possibly wanted to provide an API to the consumer to distinguish between an `INSERT` and `UPDATE` operation. 
 
 **P.S.:** If you made it this far - thank you for reading but another little tidbit is that you can also run `select row_count()` immediately after a query to get this number. But if you run it again the result will be `-1`, since its updated after each query. And we've just run a new query in itself with `select row_count()` which affects no rows at all.
 
