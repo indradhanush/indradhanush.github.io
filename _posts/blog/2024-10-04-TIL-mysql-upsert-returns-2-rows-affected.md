@@ -141,6 +141,6 @@ Edit: I went looking for the docs _after_ I published this post today, and found
 
 While, Postgres on the other hand will return 1 rows affected as the result. While I still find it counter-intuitive, my best guess as to why MySQL chose to do this way is that the authors possibly wanted to provide an API to the consumer to distinguish between an `INSERT` and `UPDATE` operation. 
 
-**P.S.:** If you made it this far - thank you for reading but another little tidbit is that you can also run `select row_count()` immediately after a query to get this number. But if you run it again the result will be `-1`, since its updated after each query. And we've just run a new query in itself with `select row_count()` which affects no rows at all.
+**P.S.:** If you made it this far - thank you for reading but another little tidbit is that you can also run `select row_count()` immediately after a query to get this number. But if you run it again the result will be `-1`, since it's updated after each query. And we've just run a new query in itself with `select row_count()` which affects no rows at all.
 
 **P.P.S:** Technically it's a Last-Week-I-Learned but I didn't have the time to blog about it then.
