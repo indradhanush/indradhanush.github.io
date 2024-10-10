@@ -64,7 +64,11 @@ mysql> select * from users;
 1 row in set (0.01 sec)
 ```
 
-In fact, our query worked as expected. From the Database's point of view, 2 rows affected makes sense, but I initially found it confusing as I was writing some tests for my DB layer in Go (or else I would never have learned this cool fact!). Here's a short example of what my test looked like:
+In fact, our query worked as expected. From the Database's point of view, 2 rows
+affected makes sense – 1 row that was attempted to be inserted and then another
+row that was updated. But I initially found it confusing as I was writing some
+tests for my DB layer in Go (or else I would never have learned this cool
+fact!). Here's a short example of what my test looked like:
 
 ```go
 func TestUserStore_Upsert(t *testing.T) {
