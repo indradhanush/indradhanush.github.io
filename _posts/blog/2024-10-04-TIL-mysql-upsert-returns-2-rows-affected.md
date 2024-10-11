@@ -2,7 +2,7 @@
 layout: post
 title: 'TIL: MySQL will return 2 rows affected if UPSERT updates an exisitng row'
 categories: blog
-tags: ['databases', 'mysql', 'programming', 'til']
+tags: ['databases', 'mysql', 'postgres', 'programming', 'til']
 excerpt: "An interesting discovery on how MySQL handles UPSERT"
 date:  10 October, 2024
 author: self
@@ -144,3 +144,116 @@ While, Postgres on the other hand will return 1 rows affected as the result. Whi
 **P.S.:** If you made it this far - thank you for reading but another little tidbit is that you can also run `select row_count()` immediately after a query to get this number. But if you run it again the result will be `-1`, since it's updated after each query. And we've just run a new query in itself with `select row_count()` which affects no rows at all.
 
 **P.P.S:** Technically it's a Last-Week-I-Learned but I didn't have the time to blog about it then.
+
+## Addendum: Bulk inserts
+
+When performing an UPSERT on a single row, the output is still unambiguous. We can tell whether the row was inserted (1), updated (2), or unchanged (0). But this gets very confusing for bulk upserts. If you've been following along, our table currently looks like:
+
+```
+mysql> select * from users;
++----------+-------------+
+| username | login_count |
++----------+-------------+
+| johndoe  |           2 |
++----------+-------------+
+1 row in set (0.01 sec)
+```
+
+Say we wanted to UPSERT a few more users – spiderman, batman, wonderwoman, catwoman and superman while also updating the login count for existing users. Let's execute the following query:
+
+```sql
+mysql> INSERT into
+       users (username)
+     VALUES
+       ("johnwick"),
+       ("spiderman"),
+       ("batman"),
+       ("wonderwoman"),
+       ("catwoman"),
+       ("superman") on duplicate key
+     UPDATE login_count = login_count + 1;
+Query OK, 7 rows affected (0.00 sec)
+Records: 6  Duplicates: 1  Warnings: 0
+```
+
+The mysql shell is correctly identifying the number of existing rows here. But the rows affected remains more than the total number of rows! 
+
+```sql
+mysql> select row_count();
++-------------+
+| row_count() |
++-------------+
+|           7 |
++-------------+
+1 row in set (0.01 sec)
+```
+
+And one last time, if we run the same query again you'll now see an even more inflated number of rows affected (everything is a duplicate, so each row is counted twice, once for insertion and once for updating it)!
+
+```sql
+// Same query as above, skipped here for ease of reading. 
+Query OK, 12 rows affected (0.00 sec)
+Records: 6  Duplicates: 6  Warnings: 0
+```
+
+Running the query to see the affected rows returns 12:
+
+```sql
+mysql> select row_count();
++-------------+
+| row_count() |
++-------------+
+|          12 |
++-------------+
+1 row in set (0.00 sec)
+```
+
+The MySQL shell reporting the total records, duplicates and warnings might be a mysql specific feature. As I did not see this additional information with [SequelAce](https://sequel-ace.com/), which only reports the number of rows affected in the GUI. If you know why this is the case, please do let me know!
+
+## Postgres
+
+Postgres remains consistent and only returns the total number of rows `inserted + updated` each time independent of how many rows were already in the DB. For example:
+
+(The query to return number of rows affected is slightly more involved)
+
+```sql
+dhanush@/tmp:localdb> WITH
+   affected_rows as (
+     INSERT into
+       users (username)
+     VALUES
+       ('johnwick'),
+       ('spiderman'),
+       ('batman'),
+       ('wonderwoman'),
+       ('catwoman'),
+       ('superman') ON CONFLICT (username) do
+     UPDATE
+     SET
+       login_count = users.login_count + 1 RETURNING *
+   )
+ SELECT
+   COUNT(*)
+ FROM
+   affected_rows;
++-------+
+| count |
+|-------|
+| 6     |
++-------+
+SELECT 1
+Time: 0.006s
+```
+
+## Conclusion
+
+If you're using the rows affected to determine how many rows were affected and
+need this information in your business logic for whatever reason, please do not
+rely on the output of `select row_count()` in MySQL. Instead, possibly have
+additional application logic to detect the changes.
+
+
+## Acknowledgments
+
+Thank you to [Swanand](https://x.com/_swanand/) for encouraging me to write
+about this bulk upsert use case and for reviewing the post and suggesting edits.
