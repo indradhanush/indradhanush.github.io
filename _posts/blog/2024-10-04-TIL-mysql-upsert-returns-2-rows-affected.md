@@ -256,4 +256,4 @@ additional application logic to detect the changes.
 ## Acknowledgments
 
 Thank you to [Swanand](https://x.com/_swanand/) for encouraging me to write
-about this bulk upsert use case and for reviewing the post and suggesting edits.
+about the bulk upsert use case and for reviewing the post and suggesting edits.
