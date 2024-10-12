@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'TIL: MySQL will return 2 rows affected if UPSERT updates an exisitng row'
+title: 'TIL: MySQL will return 2 rows affected if UPSERT updates an existing row'
 categories: blog
 tags: ['databases', 'mysql', 'postgres', 'programming', 'til']
 excerpt: "An interesting discovery on how MySQL handles UPSERT"
