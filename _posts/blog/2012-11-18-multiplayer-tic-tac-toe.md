@@ -3,7 +3,7 @@ layout: post
 title: Multiplayer Tic Tac Toe
 categories: blog
 tags: ['games','network-programming']
-excerpt: 'A multiplater tic tac toe game that can be played over the internet.'
+excerpt: 'A multiplayer tic tac toe game that can be played over the internet.'
 date: November 18, 2012
 author: self
 ---
