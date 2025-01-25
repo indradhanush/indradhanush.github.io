@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Test
+title: Test page
 excerpt: "This is a test page to trigger my CI"
 ---
 
