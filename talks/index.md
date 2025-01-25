@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Talks
-excerpt: "list of talks and podcasts that I have presented over the years with links to slides and recordings (if recorded)"
+excerpt: "A list of talks and podcasts that I have presented over the years with links to slides and recordings (if recorded)"
 permalink: /talks/
 taxonomy: talks
 ---
