@@ -20,6 +20,8 @@ This page contains a list of talks and podcasts that I have presented over the y
 
 <b>2018:</b> How the Habitat-operator brings Habitat awesomeness to Kuernetes, ChefConf US [📝](https://www.youtube.com/watch?v=TxPaXqGn3JA "Talk recording")
 
+<b>2018:</b> A note on distributed computing, Papers We Love, Bangalore [🔗](https://paperswelove.org/chapter/bangalore "PWL Chapter link")
+
 <b>2016:</b> APICalypse Podcast with DoSelect [🎙️️](https://soundcloud.com/doselect/podcast-with-indradhanush "Podcast recording")
 
 <b>2025:</b> Avoiding common pitfalls of datetime from a webapp's perspective, Pycon India [📝](./pycon-india-15/slides.html "Slides") [📽️](https://youtu.be/kKDbiibuT7Y?si=vl_ktQXmH0GpapS3 "Talk recording")
