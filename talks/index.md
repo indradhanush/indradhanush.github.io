@@ -6,7 +6,7 @@ permalink: /talks/
 taxonomy: talks
 ---
 
-This page contains a list of talks and podcasts that I have presented over the years with links to slides and recordings (if recorded).
+This page contains a list of talks and podcasts that I have presented over the years with links to slides and recordings.
 
 <b>2025:</b> Rackspace Spot - On demand Kubernetes Clusters with Spot instances, CNCF Chennai [📝](https://speakerdeck.com/indradhanush/rackspace-spot-on-demand-kubernetes-clusters-with-spot-instances "Slides")
 
