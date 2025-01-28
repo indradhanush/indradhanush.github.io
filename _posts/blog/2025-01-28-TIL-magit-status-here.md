@@ -46,4 +46,4 @@ function and I will be binding it be my default right away.
 
 **PS:** I made some edits and fixes to the post after I took the screenshots.
 
-**PPS:** I used Emacs in dark mode. But light mode looks better on the blog.
+**PPS:** I use Emacs in dark mode. But light mode looks better on the blog.
