@@ -3,15 +3,16 @@ layout: post
 title: 'TIL: magit-status-here'
 categories: blog
 tags: ['emacs', 'magit', 'productivity', 'programming', 'til']
-excerpt: "TIL that magit-status-here for the current buffer"
+excerpt: "TIL that magit-status-here will take the focus to the most recent changes on the current buffer"
 date:  10 October, 2024
 author: self
 ---
 
 TIL that `magit-status-here` will open the magit-status buffer with the focus on
-the diff of the current file. For example, normally I run `magit-status` through
-a keybdinging. Which will open the `magit-status` buffer with the project. When
-I run `magit-status` on this blog's repository while writing this post, I get
+the diff of the current file. And more specifically, the diff in the latest
+iteration of changes. For example, normally I run `magit-status` through a
+keybdinging. Which will open the `magit-status` buffer with the project. When I
+run `magit-status` on this blog's repository while writing this post, I get
 this:
 
 <figure>
@@ -39,9 +40,9 @@ get:
 </figure>
 
 
-I've been using emacs for 12 years and magit for a good chunk of that time and I
-just found out about it this morning! This is a great utility function and I
-will be binding it be my default right away.
+I've been using emacs for almost 13 years and magit for a good chunk of that
+time and I just found out about it this morning! This is a great utility
+function and I will be binding it be my default right away.
 
 **PS:** I made some edits and fixes to the post after I took the screenshots.
 
