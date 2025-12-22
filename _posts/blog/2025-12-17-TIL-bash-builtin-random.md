@@ -29,4 +29,15 @@ for i in 1 2 3; do echo $RANDOM; done
 
 This will give you the same output each time you run it after setting `RANDOM=42` for example. But with `SRANDOM` the output will be different each time!
 
-Another interesting thing I observed is that `SRANDOM` does not work (returns an empty output) on my OSX shell running `GNU bash, version 5.2.37(1)-release (aarch64-apple-darwin24.2.0)`. But I was able to get it to work on a linux box.
+~Another interesting thing I observed is that `SRANDOM` does not work (returns an empty output) on my OSX shell running `GNU bash, version 5.2.37(1)-release (aarch64-apple-darwin24.2.0)`. But I was able to get it to work on a linux box.~
+
+Correction: I use zsh on my terminal and it slipped my mind when I was trying this out. `SRANDOM` does work on OSX too!
+
+```
+bash-5.2$ which bash
+/opt/homebrew/bin/bash
+bash-5.2$ echo $SRANDOM
+1190163908
+```
+
+Nonetheless, `SRANDOM` does not work on `zsh`, which is interesting because `RANDOM` is not a defined builtin for `zsh`, and that raises the question that why _does_ `RANDOM` work but not `SRANDOM`? Maybe I'll explore that as a follow up.
