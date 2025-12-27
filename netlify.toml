@@ -1,0 +1,19 @@
+[build]
+  command = "jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  RUBY_VERSION = "3.3.6"
+
+[context.production]
+  command = "jekyll build"
+
+[context.deploy-preview]
+  command = "jekyll build --baseurl $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "jekyll build"
+
+[[plugins]]
+  package = "@netlify/plugin-jekyll-cache"
