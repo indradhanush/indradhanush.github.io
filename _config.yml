@@ -1,7 +1,6 @@
 # Site wide configuration
 
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
-# skin: "/assets/css/skins/dark.css"
+remote_theme: "b2a3e8/jekyll-theme-console"
 title: Cracking The Code
 locale: en-US
 description: Hack to learn
@@ -11,15 +10,32 @@ read_time: true
 search: true
 url: https://indradhanush.github.io
 words_per_minute: 200
+
+# Jekyll Theme Console configuration
+style: dark
+listen_for_clients_preferred_style: true
+header_pages:
+  - index.html
+  - about/index.md
+  - blog/index.md
+  - talks/index.md
+  - quotes/index.md
+  - paintings/index.md
+  - tags/index.md
+  - search/index.md
+
+# MathJax support
 mathjax:
   enable: true
   combo: "tex-svg"
   tags: "ams"
-google_fonts:
-  - name: "Open Sans"
-    weights: "400,400i,700,700i"
-  - name: "Montserrat"
-    weights: "400,400i,700,700i"
+
+# Google fonts disabled in favor of theme's monospace fonts
+# google_fonts:
+#   - name: "Open Sans"
+#     weights: "400,400i,700,700i"
+#   - name: "Montserrat"
+#     weights: "400,400i,700,700i"
 google_analytics: UA-100104959-1
 disqus:
   shortname: indradhanush
@@ -83,20 +99,23 @@ defaults:
   # Post defaults
   - scope:
       path: "_posts"
-      type: pages
+      type: posts
     values:
-      layout: pages
+      layout: post
       comments: true
       share: true
 
-# Footer links
-footer_links:
-  - title: Twitter
-    url: https://twiter.com/indradhanush92
-    icon: fab fa-twitter-square
-  - title: Github
-    url: https://github.com/indradhanush
-    icon: fab fa-github-square
-  - title: Feed
-    url: feed.xml
-    icon: fas fa-rss-square
+# Footer configuration (jekyll-theme-console format)
+footer: '<a href="https://twitter.com/indradhanush92">Twitter</a> | <a href="https://github.com/indradhanush">Github</a> | <a href="/feed.xml">RSS</a>'
+
+# Legacy footer_links (kept for reference, not used by console theme)
+# footer_links:
+#   - title: Twitter
+#     url: https://twiter.com/indradhanush92
+#     icon: fab fa-twitter-square
+#   - title: Github
+#     url: https://github.com/indradhanush
+#     icon: fab fa-github-square
+#   - title: Feed
+#     url: feed.xml
+#     icon: fas fa-rss-square
