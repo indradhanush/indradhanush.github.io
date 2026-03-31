@@ -2,7 +2,7 @@
 layout: posts
 taxonomy: blog
 title: Blog
-excerpt: "My collected thoughts on programming and technology in general"
+excerpt: "My collected thoughts on the overlap of software engineering, technology and human behaviour"
 search_omit: true
 image: /images/keyboard.jpg
 ---
