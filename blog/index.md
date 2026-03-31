@@ -2,7 +2,7 @@
 layout: posts
 taxonomy: blog
 title: Blog
-excerpt: "My collected thoughts on programming and technoglogy in general"
+excerpt: "My collected thoughts on programming and technology in general"
 search_omit: true
 image: /images/keyboard.jpg
 ---
