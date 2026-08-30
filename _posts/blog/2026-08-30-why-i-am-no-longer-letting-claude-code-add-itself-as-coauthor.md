@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Why I am no longer letting Claude Code add itself as Co-author"
+title: "Why I am no longer letting Claude Code add itself as Co-author in my commits"
 categories: blog
 tags: ['programming', 'ai', 'human-behaviour']
+excerpt: "My thoughts on why I do not want claude code as co-author to my git commits"
 date: 30 August, 2026
 author: self
 ---
