@@ -7,10 +7,6 @@ date: 30 August, 2026
 author: self
 ---
 
-> Disclaimer: I did not use AI for writing this blog post. You can read more about
-> my stance [here](/ai/). This will now go on top of every most that I write going
-> forward.
-
 For the last year or maybe more, I've been explicit about adding Claude Code as
 co-author for each commit (and also wanted others to do the same) that I used it
 for. And my reasoning for it was simple: as a reviewer or anyone else reading
