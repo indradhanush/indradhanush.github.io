@@ -21,8 +21,6 @@ google_fonts:
   - name: "Montserrat"
     weights: "400,400i,700,700i"
 google_analytics: UA-100104959-1
-disqus:
-  shortname: indradhanush
 twitter:
   username: "indradhanush92"
 
