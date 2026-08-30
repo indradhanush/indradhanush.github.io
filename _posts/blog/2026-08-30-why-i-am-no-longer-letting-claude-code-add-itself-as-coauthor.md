@@ -47,8 +47,8 @@ authors for a few of the scenarios that come to mind:
 - An LLM is creating the PR and _you_ are the reviewer
 
 What about attributions and disclaimers for AI generated work? If you're
-concerned being transparent to anyone seeing your work, either create an AI
-specific account that commits with your name or add a big disclaimer to your
+concerned about being transparent to anyone seeing your work, either create an
+AI specific account that commits with your name or add a big disclaimer to your
 project's readme that this is AI slop and there be dragons. The same way you'd
 have done for something of a hack that you haven't fully tested yourself. But
 for anything serious, please take full ownership of it.
