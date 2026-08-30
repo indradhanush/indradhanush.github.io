@@ -2,11 +2,11 @@
 self:
   name: Indradhanush Gupta
   email: indradhanush.gupta@gmail.com
-  twitter: "@indradhanush92"
+  bluesky: igupta.in
   links:
-    - title: Twitter
-      url: https://twiter.com/indradhanush92
-      icon: fab fa-twitter-square
+    - title: Bluesky
+      url: https://bsky.app/profile/igupta.in
+      icon: fa-brands fa-bluesky
     - title: Github
       url: https://github.com/indradhanush
       icon: fab fa-github-square
